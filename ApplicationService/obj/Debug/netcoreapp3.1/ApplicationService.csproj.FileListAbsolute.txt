@@ -1,0 +1,12 @@
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\bin\Debug\netcoreapp3.1\ApplicationService.deps.json
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\bin\Debug\netcoreapp3.1\ApplicationService.dll
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\bin\Debug\netcoreapp3.1\ApplicationService.pdb
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.AssemblyInfoInputs.cache
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.AssemblyInfo.cs
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.csproj.CopyComplete
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.dll
+C:\Users\rafae\source\repos\MelhoresPraticasModelagemDDD\MelhoresPraticasModelagemDDD\ApplicationService\obj\Debug\netcoreapp3.1\ApplicationService.pdb

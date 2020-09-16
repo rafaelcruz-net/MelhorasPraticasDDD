@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mCgMCXhduMoPnFoJ08a63h+EDTybFSDbPhQ0N0cD3Cphn3EmJCx0IXDFVlZaj/k0/Uz/zn41UvtAC9M2KmPlKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafae\\source\\repos\\MelhoresPraticasModelagemDDD\\MelhoresPraticasModelagemDDD\\Repository\\Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
