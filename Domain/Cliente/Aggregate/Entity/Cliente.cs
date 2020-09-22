@@ -30,9 +30,16 @@ namespace Domain.Cliente.Aggregate.Entity
         public DataNascimento DataNascimento { get; set; }
         public Filiacao Mae { get; set; }
         public Filiacao Pai { get; set; }
-        internal IList<Endereco> Enderecos { get; set; }
-        internal IList<Telefone> Telefones { get; set; }
+        internal IList<Endereco> Enderecos { get; set; } = new List<Endereco>();
+        internal IList<Telefone> Telefones { get; set; } = new List<Telefone>();
         public Password Password { get; private set; }
+
+        public List<Conta> Contas { get; set; } = new List<Conta>();
+
+        public void AdicionarConta(Conta conta)
+        {
+            this.Contas.Add(conta);
+        }
 
         public Telefone ObterTelefone(Tipo tipo)
         {
@@ -70,11 +77,6 @@ namespace Domain.Cliente.Aggregate.Entity
             if (this.ObterEndereco(endereco.Tipo) != null)
             {
                 throw new Exception("Não é permitido inserir o mesmo tipo de endereco");
-            }
-
-            if (this.DataNascimento.Idade < 18)
-            {
-                throw new Exception("Cliente deve ser maior 18");
             }
 
             this.Enderecos.Add(endereco);

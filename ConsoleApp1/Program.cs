@@ -12,14 +12,23 @@ namespace ConsoleApp1
         {
             Cliente cliente = new ClienteBuilder()
                                  .Criar("Rafael Cruz", "090454656", new DateTime(2020, 09, 20))
-                                 .AdicionarPassword("687987")
                                  .AdicionarEndereco(new Endereco())
                                  .AdicionarTelefone(new Telefone() { Numero = new Numero("99999"), Tipo = Domain.Cliente.Aggregate.Enum.Tipo.Comercial })
                                  .Build();
 
-            cliente.AdicionarPassword("abcd#123");
 
-            Console.WriteLine(cliente.Password.Valor);
+
+            Conta contaOrigem = ContaFactory.Criar(99);
+
+            Conta contaDestino = ContaFactory.Criar(999);
+
+            contaOrigem.Transferir(contaDestino);
+
+            cliente.AdicionarConta(contaOrigem);
+
+            cliente.AdicionarConta(contaDestino);
+
+            Console.WriteLine(contaDestino.Saldo);
 
             Console.ReadKey();
         }
